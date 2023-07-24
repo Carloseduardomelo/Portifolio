@@ -127,3 +127,14 @@ main section p {
 
     padding: 5px;
 }
+
+.detalha:hover{
+    background-color: #348ddc;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.accordion:active .accordion:focus .material-symbols-outlined{
+    transform: rotate(300deg);
+    transition: 1s;
+}

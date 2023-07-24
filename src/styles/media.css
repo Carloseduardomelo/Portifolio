@@ -1,5 +1,14 @@
-@media (min-width: 425px){
+@media (max-width: 400px){
+    .cont1{
+        display: flex;
+        gap: 5px;
+        margin: 0px;
+    }
+}
 
+
+
+@media (min-width: 425px){
     html{
         align-items: center;
     }
@@ -21,7 +30,7 @@
     header img{
         margin-top: 30px;
         width: 25vw;
-        margin-left: 98px;
+        margin-left: 18px;
     }
 
     main{
@@ -33,7 +42,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1040px){
+@media (min-width: 769px) and (max-width: 1040px){
 
     html{
         align-items: center;
@@ -42,6 +51,7 @@
 
     body{
         height: auto;
+        width: 60%;
     }
 
     header {
@@ -59,10 +69,10 @@
     }
 
     header img{
-        margin-left: 140px;
         width: 20vw;
-        align-items: end;
-        justify-content: end;
+        display: flex;
+        align-items: right;
+        justify-content: right;
     }
 
     .inf{

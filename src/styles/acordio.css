@@ -1,0 +1,70 @@
+.acord{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding:8px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    height: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active{
+    height: auto;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+
+    transition: 1s;
+    display: none;
+
+    
+}
+
+button{
+    background-color: transparent;
+
+}
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 15px;
+    width: 100%;
+    transition: 1s;
+}
+.cont1 img{
+    color: black;
+    height: auto;
+
+
+}
+
+.cont3{
+    width: 100%;
+}
+.cont3 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
