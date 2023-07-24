@@ -20,6 +20,8 @@
 
     header img{
         margin-top: 30px;
+        width: 25vw;
+        margin-left: 98px;
     }
 
     main{
@@ -96,7 +98,9 @@
 
 @media (min-width:1040px) and (max-width: 1440px){
     body{
-        display: flex;flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
     }
 
     header{
@@ -126,6 +130,7 @@
     body{
         display: flex;
         flex-direction: row;
+        max-width: 900px;
     }
 
     header{
