@@ -22,7 +22,6 @@ a:hover{
     transition: 0.4s;
     height: auto;
 }
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active{
     height: auto;
@@ -49,11 +48,16 @@ button{
 
 }
 
+.cont  > p {
+    margin-bottom: 5px;
+}
+
 .cont1{
     display: flex;
     align-items: center;
     justify-content: center ;
     gap: 15px;
+    margin-bottom: 10px;
     width: 100%;
     transition: 1s;
 }
